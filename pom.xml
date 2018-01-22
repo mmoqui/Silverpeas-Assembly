@@ -30,13 +30,13 @@
   <parent>
     <groupId>org.silverpeas</groupId>
     <artifactId>silverpeas-project</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0-build180121</version>
   </parent>
 
   <packaging>pom</packaging>
   <groupId>org.silverpeas</groupId>
   <artifactId>silverpeas-assembly</artifactId>
-  <version>6.0-SNAPSHOT</version>
+  <version>6.0-build180121</version>
   <name>Assembly Silverpeas</name>
 
   <scm>
@@ -77,9 +77,10 @@
   </pluginRepositories>
 
   <properties>
+    <pre.release>6.0</pre.release>
     <core.version>${project.version}</core.version>
     <components.version>${project.version}</components.version>
-    <jackrabbit.version>2.14.4-SNAPSHOT</jackrabbit.version>
+    <jackrabbit.version>2.8.0-build180119</jackrabbit.version>
   </properties>
 
   <dependencies>
